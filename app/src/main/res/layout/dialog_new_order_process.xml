@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:background="@drawable/trending_gradient_shape"
+        android:layout_alignParentTop="true"
+        android:elevation="1dp">
+
+        <ProgressBar
+            android:id="@+id/pbProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="#ffffff">
+        </ProgressBar>
+    </LinearLayout>
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:fitsSystemWindows="true"
+        android:minHeight="?attr/actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="?attr/colorPrimary"
+        android:elevation="10dp"
+        app:title="Process Order"
+        app:titleTextColor="@android:color/background_dark">
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:background="#f7f7f7"
+        android:clipToPadding="false"
+        android:layout_below="@+id/toolbar">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Jaffar Hussain"
+            android:id="@+id/tvCustomerName"
+            android:layout_centerHorizontal="true"
+            android:background="#f7f7f7"
+            android:textColor="@color/ShipGray" />
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/mapsicon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="Burger King\n Big King: 4 Meal: 510: 3: Burger King Double Decker (Chicken Tikka Burger): 1 Piece: 560: 2: Burger King "
+            android:id="@+id/tvDetail"
+            android:background="#f7f7f7"
+            android:textColor="@color/ShipGray"
+            android:layout_marginTop="14dp"
+            android:layout_below="@+id/tvCustomerName" />
+        <LinearLayout
+            android:id="@+id/picking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDetail"
+            android:paddingTop="6dp"
+            android:paddingRight="6dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/ShipGray"
+                android:textSize="16dp"
+                android:text="Pick Address"
+                android:paddingRight="4dp"
+                android:id="@+id/textView3"
+                android:background="#f7f7f7"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/ShipGray"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="Usmania"
+                android:padding="4dp"
+                android:id="@+id/tvPick"
+                android:background="#f7f7f7"
+                android:gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/droping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/picking"
+            android:paddingRight="6dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/ShipGray"
+                android:textSize="16dp"
+                android:text="Drop Address"
+                android:paddingRight="4dp"
+                android:id="@+id/textView4"
+                android:background="#f7f7f7"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/ShipGray"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="Hayatabad"
+                android:padding="4dp"
+                android:id="@+id/tvDrop"
+                android:background="#f7f7f7"
+                android:gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/bill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn1"
+            android:padding="6dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/ShipGray"
+                android:textSize="16dp"
+                android:text="Delivery Charges"
+                android:padding="4dp"
+                android:id="@+id/textView2"
+                android:background="#f7f7f7"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/ShipGray"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="--- RS"
+                android:padding="4dp"
+                android:id="@+id/price"
+                android:background="#f7f7f7"
+                android:gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btn1">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Accept"
+                android:textColor="#fff"
+                android:id="@+id/btnAccept"
+                android:background="@drawable/default_btn_pressed"
+                android:layout_marginRight="6dp"
+                android:visibility="gone"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textColor="#fff"
+                android:text="Reject"
+                android:id="@+id/btnReject"
+                android:background="@drawable/default_btn_pressed"
+                android:layout_marginLeft="6dp"
+                android:visibility="gone"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pick"
+                android:textColor="#fff"
+                android:id="@+id/btnPick"
+                android:background="@drawable/default_btn_pressed"
+                android:layout_marginRight="6dp"
+                android:visibility="gone"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Delivered"
+                android:textColor="#fff"
+                android:id="@+id/btnDrop"
+                android:background="@drawable/default_btn_pressed"
+                android:layout_marginRight="6dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "380294036629",
+    "firebase_url": "https://darewro-3c85e.firebaseio.com",
+    "project_id": "darewro-3c85e",
+    "storage_bucket": "darewro-3c85e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380294036629:android:1eacc6d9848c6a49",
+        "android_client_info": {
+          "package_name": "com.darewro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380294036629-183mgtg0l9j9ls0blbhn5ff96i88ka7l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.darewro",
+            "certificate_hash": "2d7e85b5bb692d050915af4d4cbdaf20c7d78d7c"
+          }
+        },
+        {
+          "client_id": "380294036629-7h7kislvigkmc25vk0gopjc5cbpmf9cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZJA1xd9cE_LhWq5CoqFHbhPz2mgGMTSk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380294036629-7h7kislvigkmc25vk0gopjc5cbpmf9cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380294036629:android:774184c0f1491501",
+        "android_client_info": {
+          "package_name": "com.darewrorestaurants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380294036629-dsgrue00932v896d4pbckujcpoqr11gs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.darewrorestaurants",
+            "certificate_hash": "2d7e85b5bb692d050915af4d4cbdaf20c7d78d7c"
+          }
+        },
+        {
+          "client_id": "380294036629-7h7kislvigkmc25vk0gopjc5cbpmf9cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZJA1xd9cE_LhWq5CoqFHbhPz2mgGMTSk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380294036629-7h7kislvigkmc25vk0gopjc5cbpmf9cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380294036629:android:52d1865ec9efdca3",
+        "android_client_info": {
+          "package_name": "com.darewrorider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380294036629-jhq48me1fkhu0dnd6mbs4hapt5jdr3pv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.darewrorider",
+            "certificate_hash": "2d7e85b5bb692d050915af4d4cbdaf20c7d78d7c"
+          }
+        },
+        {
+          "client_id": "380294036629-7h7kislvigkmc25vk0gopjc5cbpmf9cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZJA1xd9cE_LhWq5CoqFHbhPz2mgGMTSk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380294036629-7h7kislvigkmc25vk0gopjc5cbpmf9cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

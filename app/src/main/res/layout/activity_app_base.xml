@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This DrawerLayout has two children at the root  -->
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- This LinearLayout represents the contents of the screen  -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- The ActionBar displayed at the top -->
+
+        <include
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!-- The main content view where fragments are loaded -->
+        <LinearLayout
+            android:id="@+id/flContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/toolbar"/>
+
+        <LinearLayout
+            android:id="@+id/snackbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/snackBarColor"
+            android:animateLayoutChanges="true"
+            android:visibility="gone"
+            android:onClick="onSnackbarClick"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/etOrderDet"
+                android:gravity="center"
+                android:text="@string/no_connection"
+                android:padding="6dp"
+                android:maxLength="50"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- The navigation drawer that comes from the left -->
+    <!-- Note that `android:layout_gravity` needs to be set to 'start' -->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nvView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/drawer_view"
+        app:itemBackground="@drawable/navigation_view_bg"/>
+
+</android.support.v4.widget.DrawerLayout>

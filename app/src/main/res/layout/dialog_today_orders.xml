@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f7f7f7">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout"
+            android:clipToPadding="false"
+            android:layout_marginTop="8dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="Jaffar Hussain"
+                android:id="@+id/tvCustomerName"
+                android:background="#f7f7f7"
+                android:textColor="@color/ShipGray"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="Burger King\n Big King: 4 Meal: 510: 3: Burger King Double Decker (Chicken Tikka Burger): 1 Piece: 560: 2: Burger King "
+                android:id="@+id/tvDetail"
+                android:background="#f7f7f7"
+                android:textColor="@color/ShipGray"
+                android:layout_marginTop="14dp"
+                />
+
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/btnOK"
+            android:textColor="@drawable/flat_btn_pressed"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="24dp"
+            android:padding="8dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

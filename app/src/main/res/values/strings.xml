@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DarewroRider</string>
+
+    <string name="url">"http://darewro.com/mobile/rider_mobile_services/"</string>
+    <string name="no_connection">"No internet connection. Reconnect and try again"</string>
+    <string name="number_alert">"Not Valid Number"</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
